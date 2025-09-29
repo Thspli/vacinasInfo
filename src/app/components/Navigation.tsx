@@ -13,7 +13,7 @@ export default function Navigation() {
     { href: '/', label: 'Início' },
     { href: '/importancia', label: 'Importância' },
     { href: '/mitos', label: 'Mitos e Verdades' },
-    { href: '/contato', label: 'Contato' },
+    { href: '/calendario', label: 'Calendário' },
   ];
 
   return (

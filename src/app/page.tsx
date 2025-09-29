@@ -16,8 +16,8 @@ export default function Home() {
             <Link href="/importancia" className={styles.btnPrimary}>
               Saiba Mais
             </Link>
-            <Link href="/mitos" className={styles.btnSecondary}>
-              Mitos e Verdades
+            <Link href="/calendario" className={styles.btnSecondary}>
+              Ver Calendário
             </Link>
           </div>
         </div>
@@ -75,10 +75,10 @@ export default function Home() {
 
       <section className={styles.cta}>
         <div className={styles.container}>
-          <h2>Fique Informado</h2>
-          <p>Não deixe que informações falsas coloquem sua saúde em risco</p>
-          <Link href="/mitos" className={styles.btnPrimary}>
-            Descubra a Verdade
+          <h2>Mantenha suas Vacinas em Dia</h2>
+          <p>Consulte o calendário completo de vacinação para todas as idades</p>
+          <Link href="/calendario" className={styles.btnPrimary}>
+            Ver Calendário
           </Link>
         </div>
       </section>
