@@ -1,0 +1,306 @@
+.page {
+  min-height: 100vh;
+}
+
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 5rem 2rem 3rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  opacity: 0.95;
+  max-width: 700px;
+  margin: 0 auto;
+  animation: fadeInUp 0.8s ease-out 0.2s backwards;
+}
+
+.content {
+  padding: 4rem 2rem;
+  background: var(--bg-light);
+}
+
+.article {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: scaleIn 0.6s ease-out;
+}
+
+.article h2 {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.article p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text);
+  margin-bottom: 1.5rem;
+}
+
+.highlight {
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
+  padding: 2rem;
+  border-radius: 15px;
+  border-left: 4px solid #f59e0b;
+  margin: 2rem 0;
+  animation: slideInLeft 0.8s ease-out;
+}
+
+.highlight h3 {
+  color: #92400e;
+  margin-bottom: 0.5rem;
+}
+
+.highlight p {
+  color: #78350f;
+  margin-bottom: 0;
+}
+
+.process {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.step {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: var(--bg-light);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.step:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.step:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.step:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.step:hover {
+  transform: translateY(-10px);
+  background: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.stepNumber {
+  width: 60px;
+  height: 60px;
+  background: var(--primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto 1rem;
+}
+
+.step h4 {
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.step p {
+  font-size: 0.95rem;
+  color: var(--text-light);
+  margin: 0;
+}
+
+.immunity {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.immunityCard {
+  padding: 2rem;
+  background: linear-gradient(135deg, #e0f2fe, #bae6fd);
+  border-radius: 15px;
+  border-left: 4px solid var(--primary);
+  transition: all 0.3s ease;
+  animation: slideInRight 0.8s ease-out;
+}
+
+.immunityCard:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.immunityCard:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.immunityCard:hover {
+  transform: translateX(10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.immunityCard h4 {
+  color: #0c4a6e;
+  margin-bottom: 0.5rem;
+}
+
+.immunityCard p {
+  color: #075985;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.diseases {
+  background: var(--bg-light);
+  padding: 2rem;
+  border-radius: 15px;
+  margin: 2rem 0;
+}
+
+.diseases h3 {
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+}
+
+.diseases ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.diseases li {
+  padding: 0.75rem;
+  background: white;
+  border-radius: 10px;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+}
+
+.diseases li:hover {
+  transform: translateX(10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.safety {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.safetyItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: var(--bg-light);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.safetyItem:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.safetyItem:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.safetyItem:hover {
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transform: translateX(10px);
+}
+
+.icon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.safetyItem h4 {
+  color: var(--primary);
+  margin-bottom: 0.25rem;
+}
+
+.safetyItem p {
+  color: var(--text-light);
+  margin: 0;
+  font-size: 1rem;
+}
+
+.conclusion {
+  background: linear-gradient(135deg, #dcfce7, #bbf7d0);
+  padding: 2rem;
+  border-radius: 15px;
+  border-left: 4px solid var(--secondary);
+  margin-top: 3rem;
+  animation: scaleIn 0.8s ease-out;
+}
+
+.conclusion h3 {
+  color: #065f46;
+  margin-bottom: 1rem;
+}
+
+.conclusion p {
+  color: #047857;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+
+  .article {
+    padding: 2rem 1.5rem;
+  }
+
+  .article h2 {
+    font-size: 1.5rem;
+  }
+
+  .process {
+    grid-template-columns: 1fr;
+  }
+
+  .immunity {
+    grid-template-columns: 1fr;
+  }
+
+  .diseases ul {
+    grid-template-columns: 1fr;
+  }
+}
