@@ -26,15 +26,16 @@ export default function Footer() {
             <ul className={styles.links}>
               <li><Link href="/">Início</Link></li>
               <li><Link href="/importancia">Importância</Link></li>
+              <li><Link href="/processo">Como Funciona</Link></li>
               <li><Link href="/mitos">Mitos e Verdades</Link></li>
-              <li><Link href="/calendario">Calendário de Vacinação</Link></li>
+              <li><Link href="/calendario">Calendário</Link></li>
             </ul>
           </div>
 
           <div className={styles.section}>
             <h4>Recursos</h4>
             <ul className={styles.links}>
-              <li><a href="/calendario" onClick={(e) => e.preventDefault()}>Calendário de Vacinação</a></li>
+              <li><a href="#" onClick={(e) => e.preventDefault()}>Calendário de Vacinação</a></li>
               <li><a href="#" onClick={(e) => e.preventDefault()}>Carteira Digital</a></li>
               <li><a href="#" onClick={(e) => e.preventDefault()}>Postos de Saúde</a></li>
               <li><a href="#" onClick={(e) => e.preventDefault()}>Perguntas Frequentes</a></li>

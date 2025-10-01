@@ -12,6 +12,7 @@ export default function Navigation() {
   const links = [
     { href: '/', label: 'Início' },
     { href: '/importancia', label: 'Importância' },
+    { href: '/processo', label: 'Como Funciona' },
     { href: '/mitos', label: 'Mitos e Verdades' },
     { href: '/calendario', label: 'Calendário' },
   ];
